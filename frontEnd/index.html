@@ -10,6 +10,9 @@
 
 </head>
 <body ng-controller='searchController'>
+	<li ng-repeat='name in studentsOnLoad'>
+		{{name.name}}
+	</li>
 
 	<div class="container">
 		<div class="row">
@@ -22,7 +25,7 @@
 	
 	{{message}}
 	{{who}}
-	<div class="">{{status}}</div>
+	<!-- <div class="">{{status}}</div> -->
 	<div class="">{{result}}</div>
 
 </body>
