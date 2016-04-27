@@ -14,13 +14,16 @@
 	<div class="container">
 		<div class="row">
 			<form class="search-form" ng-submit='search()'>
-				<input type="text">
+				<input type="text" ng-model='who'>
 				<input type="submit" class="btn btn-primary">
 			</form>
 		</div>
 	</div>
-
+	
 	{{message}}
+	{{who}}
+	<div class="">{{status}}</div>
+	<div class="">{{result}}</div>
 
 </body>
 </html>
